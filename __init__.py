@@ -49,7 +49,8 @@ def activate_semantic_highlight(clear_keyword_defs=True):
     last_color = len(COLORS)
 
     blacklists = {
-        "python": ["True", "False", "def", "import", "try", "except", "if", "else", "from", "class", "return", "not", "in", "for", "pass", "continue", "break", "while", "with", "as"]
+        "python": ["True", "False", "def", "import", "try", "except", "if", "else", "from", "class", "return", "not", "in", "for", "pass", "continue", "break", "while", "with", "as"],
+        "elixir": ["defmodule", "do", "use", "def", "end"]
     }
 
     try:
